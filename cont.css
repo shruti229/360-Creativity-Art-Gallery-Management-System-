@@ -1,0 +1,42 @@
+body{
+background-color:black;
+}
+.container{
+float: left;
+position: relative;
+left :  700px;
+bottom: 630px;
+
+}
+.img-col{
+  padding-left: 40px;
+  margin-top: 10px;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 7px;
+}
+h3{
+  font-size: 25px;
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 7px;
+}
+
+hr{
+height:0.5px;
+border-width:0;
+color:gray;
+background-color:gray;
+width:80%;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
+}

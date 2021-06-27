@@ -1,0 +1,114 @@
+body {
+  height: 150vh;
+  /*display: flex;*/
+  background: #000;
+}
+
+h1{
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 35px;
+  line-height: 0.75;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+}
+h6{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  color: #000000;
+  line-height: 2;
+}
+hr {
+border-top: 0.5px solid #838383;
+
+
+}
+.nav-item{
+  padding: 0,17;
+}
+.nav-link{
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.navbar{
+
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  margin-top: 10px;
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+
+/*  font-weight:lighter; */
+}
+h6{
+  color:white;
+}
+.circular-slider {
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  perspective: 1000px;
+}
+.circular-slider {
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  perspective: 1000px;
+}
+.slider-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite;
+}
+.slider-item {
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  background: rgba(255,255,255,.5);
+  -webkit-box-reflect: below 15px
+  -webkit-gradient(linear, left top, left bottom, from(transparent),
+                   color-stop(0.5, transparent), to(rgba(255,255,255,.5)));
+}
+
+.slider-item img {
+  width: 100%;
+  height: 100%;
+}
+.slider-item:nth-child(1) { transform: rotateY(0deg) translateZ(216px); }
+.slider-item:nth-child(2) { transform: rotateY(60deg) translateZ(216px); }
+.slider-item:nth-child(3) { transform: rotateY(120deg) translateZ(216px); }
+.slider-item:nth-child(4) { transform: rotateY(180deg) translateZ(216px); }
+.slider-item:nth-child(5) { transform: rotateY(240deg) translateZ(216px); }
+.slider-item:nth-child(6) { transform: rotateY(300deg) translateZ(216px); }
+
+@keyframes rotate {
+  0%     { transform: translateZ(-216px) rotateY(0deg); }
+  16.67% { transform: translateZ(-216px) rotateY(-60deg); }
+  33.33% { transform: translateZ(-216px) rotateY(-120deg); }
+  50%    { transform: translateZ(-216px) rotateY(-180deg); }
+  66.67% { transform: translateZ(-216px) rotateY(-240deg); }
+  83.34% { transform: translateZ(-216px) rotateY(-300deg); }
+  100%   { transform: translateZ(-216px) rotateY(-360deg); }
+}
+#footer{
+  padding : 7% 15%;
+  text-align: center;
+  color: white;
+}
+.social-icon{
+  margin:20px 10px;
+}
